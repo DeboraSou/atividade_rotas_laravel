@@ -136,7 +136,7 @@ Route::get('/', 'App\Http\Controllers\PrincipalController@principal')->name('sit
 php artisan route:list
 ```
 
-## Criação do diretório site dentro do diretório resources/views:
+## Criação do diretório site dentro do diretório resources/views
 
 O diretório servirá para conter os arquivos:
 - principal.blade.php
