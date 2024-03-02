@@ -87,19 +87,53 @@ Após inicializar o servidor local, copie ou clique no endereço http disponibil
 
 Este controlador será salvo no diretório app/Http/Controllers e será utilizado para definir a lógica de manipulação das requisições relacionadas as páginas do seu aplicativo web.
 
-**Criação do Controle da página Principal:**
+**Criação do Controlador da página Principal:**
 ```bash
 php artisan make:controller PrincipalController
 ```
 
-**Criação do Controle da página Sobre Nós:**
+**Conteúdo do PrincipalController.php:**
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+
+class PrincipalController extends Controller {
+    public function principal(){
+        return view('site.principal');
+    }
+}
+```
+
+**Criação do Controlador da página Sobre Nós:**
 ```bash
 php artisan make:controller SobreNosController
 ```
 
-**Criação do Controle da página Contato:**
+**Criação do Controlador da página Contato:**
 ```bash
 php artisan make:controller ContatoController
+```
+
+## Criação de rotas
+
+Adicione as rotas para as páginas desejadas dentro do diretório routes/web.php
+
+```php
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', 'App\Http\Controllers\PrincipalController@principal')->name('site.index');
+```
+
+## Listar rotas
+
+**Lista todas as rotas registradas na aplicação:**
+```bash
+php artisan route:list
 ```
 
 ## Criação do diretório site dentro do diretório resources/views:
@@ -109,11 +143,28 @@ O diretório servirá para conter os arquivos:
 - sobrenos.blade.php
 - contato.blade.php
 
-## Listar rotas
+Adicione o conteúdo HTML desejado em cada arquivo Blade para definir o layout das páginas.
 
-**Lista todas as rotas registradas na aplicação:**
-```bash
-php artisan route:list
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotas e Links</title>
+</head>
+
+<body>
+    <h1>Você encotrou a melhor</h1>
+
+    <h2>Comunidade Nacional de Ciclistas</h2>
+
+    <p>Você encontrou o seu lar, o ponto de encontro definitivo para ciclistas de todo o país. Seja você um ciclista             casual, um entusiasta de longa data ou um novato ansioso para explorar novas trilhas, nossa comunidade tem algo           para todos.
+    </p>
+</body>
+</html>
 ```
 
 ## Estrutura de Arquivos
