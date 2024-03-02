@@ -25,12 +25,12 @@ Em resumo, a diferença entre global e local no contexto do Composer é onde o C
 
 Para começar, crie um novo projeto Laravel executando os seguintes comandos no terminal:
 
-**Instale o Laravel usando o Composer:**
+**Instale o Laravel usando o Composer.**
 ```bash
 composer create-project laravel/laravel nome-do-seu-projeto
 ```
 
-**Navegue até o diretório do seu projeto recém-criado:**
+**Navegue até o diretório do seu projeto recém-criado.**
 ```bash
 cd nome-do-seu-projeto
 ```
@@ -47,12 +47,12 @@ composer require laravel/breeze --dev
 
 Após a instalação do Laravel Breeze, execute os seguintes comandos para configurar a autenticação:
 
-**Instale as views e rotas necessárias para autenticação:**
+**Instale as views e rotas necessárias para autenticação.**
 ```bash
 php artisan breeze:install
 ```
 
-**Execute as migrações para criar as tabelas de banco de dados necessárias:**
+**Execute as migrações para criar as tabelas de banco de dados necessárias.**
 ```bash
 php artisan migrate
 ```
@@ -87,12 +87,12 @@ Após inicializar o servidor local, copie ou clique no endereço http disponibil
 
 Este controlador será salvo no diretório app/Http/Controllers e será utilizado para definir a lógica de manipulação das requisições relacionadas as páginas do seu aplicativo web.
 
-**Criação do Controlador da página Principal:**
+**Criação do Controlador da página Principal.**
 ```bash
 php artisan make:controller PrincipalController
 ```
 
-**Conteúdo do PrincipalController.php:**
+**Conteúdo do PrincipalController.php.**
 ```php
 <?php
 
@@ -107,19 +107,19 @@ class PrincipalController extends Controller {
 }
 ```
 
-**Criação do Controlador da página Sobre Nós:**
+**Criação do Controlador da página Sobre Nós.**
 ```bash
 php artisan make:controller SobreNosController
 ```
 
-**Criação do Controlador da página Contato:**
+**Criação do Controlador da página Contato.**
 ```bash
 php artisan make:controller ContatoController
 ```
 
 ## Criação de rotas
 
-Adicione as rotas para as páginas desejadas dentro do diretório routes/web.php
+Adicione as rotas para as páginas desejadas dentro do diretório routes/web.php.
 
 ```php
 <?php
@@ -131,7 +131,7 @@ Route::get('/', 'App\Http\Controllers\PrincipalController@principal')->name('sit
 
 ## Listar rotas
 
-**Lista todas as rotas registradas na aplicação:**
+**Lista todas as rotas registradas na aplicação.**
 ```bash
 php artisan route:list
 ```
