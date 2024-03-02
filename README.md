@@ -161,7 +161,7 @@ Adicione o conteúdo HTML desejado em cada arquivo Blade para definir o layout d
 
     <h2>Comunidade Nacional de Ciclistas</h2>
 
-    <p>Você encontrou o seu lar, o ponto de encontro definitivo para ciclistas de todo o país. Seja você um ciclista             casual, um entusiasta de longa data ou um novato ansioso para explorar novas trilhas, nossa comunidade tem algo           para todos.
+    <p>Você encontrou o seu lar, o ponto de encontro definitivo para ciclistas de todo o país. Seja você um ciclista casual, um entusiasta de longa data ou um novato ansioso para explorar novas trilhas, nossa comunidade tem algo para todos.
     </p>
 </body>
 </html>
