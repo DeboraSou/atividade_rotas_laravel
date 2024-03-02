@@ -35,22 +35,6 @@ composer create-project laravel/laravel nome-do-seu-projeto
 cd nome-do-seu-projeto
 ```
 
-.....................................
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Instalação de Laravel Breeze
 
 Dentro do diretório do seu projeto Laravel, execute o seguinte comando para instalar o Laravel Breeze:
@@ -97,7 +81,40 @@ php artisan serve
 
 ## Acessar o Aplicativo
 
-Apos inicializar o servidor local, copie ou clique no endereço http disponibilizado, e abra seu navegador para acessar as páginas de login e registro.
+Após inicializar o servidor local, copie ou clique no endereço http disponibilizado, e abra seu navegador para acessar as páginas de login e registro.
+
+## Criação do Controlador no Laravel
+
+Este controlador será salvo no diretório app/Http/Controllers e será utilizado para definir a lógica de manipulação das requisições relacionadas as páginas do seu aplicativo web.
+
+**Criação do Controle da página Principal:**
+```bash
+php artisan make:controller PrincipalController
+```
+
+**Criação do Controle da página Sobre Nós:**
+```bash
+php artisan make:controller SobreNosController
+```
+
+**Criação do Controle da página Contato:**
+```bash
+php artisan make:controller ContatoController
+```
+
+## Criação do diretório site dentro do diretório resources/views:
+
+O diretório servirá para conter os arquivos:
+- principal.blade.php
+- sobrenos.blade.php
+- contato.blade.php
+
+## Listar rotas
+
+**Lista todas as rotas registradas na aplicação:**
+```bash
+php artisan route:list
+```
 
 ## Estrutura de Arquivos
 
