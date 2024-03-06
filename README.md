@@ -157,7 +157,7 @@ Adicione o conteúdo HTML desejado em cada arquivo Blade para definir o layout d
 </head>
 
 <body>
-    <h1>Você encotrou a melhor</h1>
+    <h1>Você encontrou a melhor</h1>
 
     <h2>Comunidade Nacional de Ciclistas</h2>
 
