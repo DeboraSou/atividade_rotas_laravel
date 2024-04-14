@@ -183,6 +183,10 @@ Adicione o conteúdo HTML desejado em cada arquivo Blade para definir o layout d
 
 Essa estrutura de arquivos do Laravel ajuda a manter o projeto organizado e facilita a localização de arquivos específicos durante o desenvolvimento e a manutenção do aplicativo.
 
+## Ilustração da página início 
+
+![Página Início](public/inicio.png)
+
 ## Licença
 
 Este projeto está licenciado sob a [MIT license](https://opensource.org/licenses/MIT).
