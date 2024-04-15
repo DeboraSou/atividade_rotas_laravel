@@ -1,4 +1,21 @@
-# Projeto Laravel de Rotas e Páginas
+<div align="center" style="display: inline_block;">
+    <a href="https://laravel.com" title="Site oficial Laravel" target="_blank" rel='noopener noreferrer'>
+        <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="800" alt="Logo Laravel">
+    </a>
+</div>
+
+<div align="center" style="display: inline_block;">
+    <img align="center" alt="HTML5" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" /> 
+    <img align="center" alt="CSS3" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+    <img align="center" alt="JavaScript" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+    <img align="center" alt="PHP" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"/>
+    <img align="center" alt="Composer" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/composer/composer-original.svg" />   
+    <img align="center" alt="MySQL" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />  
+</div><br />
+
+<div align="center">
+<h1>PROJETO LARAVEL DE ROTAS E PÁGINAS</h1>
+</div><br />
 
 Este projeto Laravel foi desenvolvido como parte de uma atividade para criar rotas e páginas. O objetivo é criar um aplicativo web simples com três seções principais: Página Principal, Sobre Nós e Contato.
 
